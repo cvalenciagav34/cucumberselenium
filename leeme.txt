@@ -1,0 +1,4 @@
+
+mvn test
+mvn test -Dcucumber.plugin="pretty"
+mvn test -Dcucumber.plugin="html:target/cucumber-report/cucumber.html"
